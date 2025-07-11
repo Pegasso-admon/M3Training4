@@ -30,8 +30,6 @@ To run this project:
 
 The application will load, and you can interact with the form to save data, clear data, and observe the interaction counter.
 
-### File Structure
-
 ## How it Works
 
 * **`index.html`**: Defines the page structure, includes Bootstrap, links to the custom CSS for styling, and imports the JavaScript file. It sets up the form, data display area, and interaction counter display.
