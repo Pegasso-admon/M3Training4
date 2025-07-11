@@ -1,0 +1,83 @@
+/* Custom Darker Background */
+body.bg-darker {
+    background-color: #0d1a26 !important; 
+    color: #e0e6eb !important; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centering and sizing for the main container */
+.custom-container {
+    max-width: 600px; 
+    width: 90%; 
+}
+
+/* Card Styling: Dark background and subtle shadow */
+.card.bg-card-dark {
+    background-color: #1a2a3a !important; 
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 4px 15px rgba(245, 245, 245, 0.4); 
+}
+
+/* Input field styling */
+.form-control {
+    background-color: #243b50; 
+    color: #000000;
+    border: 1px solid #336b6d;
+}
+
+.form-control:focus {
+    background-color: #02fff2;
+    color: #000000;
+    border-color: #4a77a8; 
+    box-shadow: 0 0 0 0.25rem rgba(56, 128, 255, 0.25); 
+}
+
+/* Custom Primary Button (Save Data) */
+.btn-custom-primary {
+    background-color: #2d30db; 
+    border-color: #38f2ff;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-custom-primary:hover {
+    background-color: #2a69d1; 
+    border-color: #2a69d1;
+}
+
+/* Custom Danger Button (Clear Data) */
+.btn-custom-danger {
+    background-color: #920909; 
+    border-color: #ff7b00;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-custom-danger:hover {
+    background-color: #d13e3e; 
+    border-color: #d13e3e;
+}
+
+/* Alert Styling - Info (No Data) */
+.alert-custom-info {
+    background-color: #2d30db; 
+    border-color: #4df9ff;
+    color: #ffffff; 
+}
+
+/* Alert Styling - Success (Data Stored) */
+.alert-custom-success {
+    background-color: #2d30db; 
+    border-color: #2ddbdb;
+    color: #f7f7f7; 
+}
+
+/* Validation Feedback */
+.form-control.is-invalid {
+    border-color: #ff4d4d; 
+}
+
+.invalid-feedback {
+    color: #ff4d4d; 
+}
