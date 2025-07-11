@@ -1,5 +1,8 @@
 # User Data & Interaction Management
 
+<img width="1918" height="1031" alt="image" src="https://github.com/user-attachments/assets/1f0a4bde-c72a-456b-a7a0-b327997871dd" />
+
+
 This project creates an interactive web page using HTML, CSS (Bootstrap), and JavaScript to manage user data with browser storage mechanisms (Local Storage and Session Storage). It features dynamic DOM manipulation, input validation, and a dark, professional theme.
 
 ## Features
